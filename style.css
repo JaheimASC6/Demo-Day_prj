@@ -1,0 +1,392 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:100,100i,400,400i,700,700i|IBM+Plex+Serif:400,400i');
+.navbar-brand{
+    font-size:80px;
+    color:black;
+    text-decoration:none;
+  
+}
+
+.navbar-brand:hover{
+    text-decoration:none;
+
+}
+.nav-item {
+    display: inline;
+    justify-content: space-around;  
+    font-size: 24px;
+    background-color: none;
+    padding: 5px 60px;
+  text-align: center;
+  text-decoration:none;
+  
+
+}
+.nav-link{
+    color:black;
+    text-decoration:none;
+}
+.nav-item:hover{
+    text-decoration:none;
+    opacity: .5;
+    background-color:grey;
+}
+
+#home{
+    background:url("newbk2.jpg");
+    opacity: inherit;
+}
+.AUheader{
+    font-style:oblique;
+    font-size:50px;
+    text-decoration: underline;
+}
+.aboutus{
+    font-size:35px;
+}
+.weblogo{
+
+    height:150px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+  background-color:none;
+}
+.hometag{
+    font-style:oblique;
+    font-size:35px;
+
+}
+.homeinfo{
+    font-size:24px;
+    color:black;
+    float:left;
+    border:5px black;
+}
+.scholarship{
+    color:black;
+    font-size:24px;
+}
+.scholarship:visited{
+    color:black;
+}
+.header2{
+    font-size: 35px;
+}
+.nyu{
+    float: left;
+    font-size: 24px;
+    border: 2px solid black;
+}
+
+.colleges{
+    display:inline;
+}
+.scholarship{
+    font-size: 28px;
+    display: block;
+    
+
+}
+#collegescholar{
+    font-size: 24px;
+    display:inline;
+
+}
+#collegescholar:visited{
+    color:black;
+}
+
+.pic1{
+    float: left;
+    height: 113px;
+    width: 120px;
+}
+.pic2{
+    float: left;
+    height: 113px;
+    width: 120px;
+    
+}
+.pic3{
+    float: left;
+    height: 113px;
+    width: 120px;
+}
+.pic4{
+    float: left;
+    height: 113px;
+    width: 120px;
+}
+.pic5{
+    float: left;
+    height: 113px;
+    width: 120px;
+}
+.pic6{
+    float: left;
+    height: 113px;
+    width: 120px;
+}
+.pic7{
+    float: left;
+    height: 113px;
+    width: 120px;
+}
+
+.Colleges{
+    font-size: 33px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.collegescholar{
+    font-size: 24px;
+    display:inline;
+}
+#collegescholar:visited{
+    color:blue;
+}
+.scholar{
+    font-size: 24px;
+    display:inline;
+}
+#scholar:visited{
+    color:blue;
+}
+.niche{
+    font-size: 24px;
+    display:inline;
+}
+#niche:visited{
+    color:blue;
+}
+.unigo{
+    font-size: 24px;
+    display:inline;
+}
+#unigo:visited{
+    color:blue;
+}
+.fastweb{
+    font-size: 24px;
+    display:inline;
+}
+#fastweb:visited{
+    color:blue;
+
+}
+.b1{
+    border:1px inset black;
+}
+@media  (max-width: 1000px) {
+    #home{
+        background-color: #9abacc;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 100 60'%3E%3Cg %3E%3Crect fill='%239abacc' width='11' height='11'/%3E%3Crect fill='%239abbcd' x='10' width='11' height='11'/%3E%3Crect fill='%2399bccd' y='10' width='11' height='11'/%3E%3Crect fill='%2399bece' x='20' width='11' height='11'/%3E%3Crect fill='%2399bfce' x='10' y='10' width='11' height='11'/%3E%3Crect fill='%2398c0cf' y='20' width='11' height='11'/%3E%3Crect fill='%2398c1cf' x='30' width='11' height='11'/%3E%3Crect fill='%2398c2d0' x='20' y='10' width='11' height='11'/%3E%3Crect fill='%2398c4d0' x='10' y='20' width='11' height='11'/%3E%3Crect fill='%2398c5d0' y='30' width='11' height='11'/%3E%3Crect fill='%2398c6d1' x='40' width='11' height='11'/%3E%3Crect fill='%2398c7d1' x='30' y='10' width='11' height='11'/%3E%3Crect fill='%2398c8d1' x='20' y='20' width='11' height='11'/%3E%3Crect fill='%2398c9d1' x='10' y='30' width='11' height='11'/%3E%3Crect fill='%2398cbd1' y='40' width='11' height='11'/%3E%3Crect fill='%2398ccd1' x='50' width='11' height='11'/%3E%3Crect fill='%2399cdd1' x='40' y='10' width='11' height='11'/%3E%3Crect fill='%2399ced1' x='30' y='20' width='11' height='11'/%3E%3Crect fill='%239acfd1' x='20' y='30' width='11' height='11'/%3E%3Crect fill='%239ad0d0' x='10' y='40' width='11' height='11'/%3E%3Crect fill='%239bd1d0' y='50' width='11' height='11'/%3E%3Crect fill='%239cd2d0' x='60' width='11' height='11'/%3E%3Crect fill='%239dd3d0' x='50' y='10' width='11' height='11'/%3E%3Crect fill='%239dd4cf' x='40' y='20' width='11' height='11'/%3E%3Crect fill='%239ed5cf' x='30' y='30' width='11' height='11'/%3E%3Crect fill='%23a0d6ce' x='20' y='40' width='11' height='11'/%3E%3Crect fill='%23a1d7ce' x='10' y='50' width='11' height='11'/%3E%3Crect fill='%23a2d8cd' x='70' width='11' height='11'/%3E%3Crect fill='%23a3d9cd' x='60' y='10' width='11' height='11'/%3E%3Crect fill='%23a5dacc' x='50' y='20' width='11' height='11'/%3E%3Crect fill='%23a6dbcb' x='40' y='30' width='11' height='11'/%3E%3Crect fill='%23a8dccb' x='30' y='40' width='11' height='11'/%3E%3Crect fill='%23aaddca' x='20' y='50' width='11' height='11'/%3E%3Crect fill='%23abdec9' x='80' width='11' height='11'/%3E%3Crect fill='%23addfc9' x='70' y='10' width='11' height='11'/%3E%3Crect fill='%23afdfc8' x='60' y='20' width='11' height='11'/%3E%3Crect fill='%23b1e0c7' x='50' y='30' width='11' height='11'/%3E%3Crect fill='%23b3e1c7' x='40' y='40' width='11' height='11'/%3E%3Crect fill='%23b5e2c6' x='30' y='50' width='11' height='11'/%3E%3Crect fill='%23b7e3c5' x='90' width='11' height='11'/%3E%3Crect fill='%23bae3c4' x='80' y='10' width='11' height='11'/%3E%3Crect fill='%23bce4c4' x='70' y='20' width='11' height='11'/%3E%3Crect fill='%23bee5c3' x='60' y='30' width='11' height='11'/%3E%3Crect fill='%23c1e6c2' x='50' y='40' width='11' height='11'/%3E%3Crect fill='%23c3e6c1' x='40' y='50' width='11' height='11'/%3E%3Crect fill='%23c6e7c1' x='90' y='10' width='11' height='11'/%3E%3Crect fill='%23c9e8c0' x='80' y='20' width='11' height='11'/%3E%3Crect fill='%23cbe8bf' x='70' y='30' width='11' height='11'/%3E%3Crect fill='%23cee9bf' x='60' y='40' width='11' height='11'/%3E%3Crect fill='%23d1e9be' x='50' y='50' width='11' height='11'/%3E%3Crect fill='%23d3eabe' x='90' y='20' width='11' height='11'/%3E%3Crect fill='%23d6eabd' x='80' y='30' width='11' height='11'/%3E%3Crect fill='%23d9ebbd' x='70' y='40' width='11' height='11'/%3E%3Crect fill='%23dcebbc' x='60' y='50' width='11' height='11'/%3E%3Crect fill='%23dfecbc' x='90' y='30' width='11' height='11'/%3E%3Crect fill='%23e2ecbc' x='80' y='40' width='11' height='11'/%3E%3Crect fill='%23e5edbb' x='70' y='50' width='11' height='11'/%3E%3Crect fill='%23e8edbb' x='90' y='40' width='11' height='11'/%3E%3Crect fill='%23ebeebb' x='80' y='50' width='11' height='11'/%3E%3Crect fill='%23EEB' x='90' y='50' width='11' height='11'/%3E%3C/g%3E%3C/svg%3E");
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    .nav-item {
+        display: inline;
+        justify-content: space-around;  
+        font-size: 26px;
+        background-color: none;
+        padding: 5px 40px;
+        padding-left: 3%;
+      text-align: center;
+      text-decoration:none;
+    }
+    .hometag{
+        text-decoration: underline;
+        font-size: 50px;
+    }
+    .header2{
+        text-decoration: underline;
+        font-size: 80px;
+    }
+    .navbar-brand{
+        font-size:30px;
+    }
+    .nav-link{
+        font-size:33px;
+    }
+    #hell{
+        font-size:24px;
+    }
+    .adlib{
+        font-size: 15px;
+    }
+    #adjective{
+        width: 300px;
+    }
+    
+  }
+.CUheader{
+    font-style:oblique;
+    text-decoration: underline;
+}
+.header2{
+    font-style:oblique;
+}
+#littleb{
+    font-style:oblique
+}
+.contactus{
+    font-size:24px;
+}
+#username{
+    width:200px;
+    height:20px;
+    float:center;
+}
+.fillout{
+    display: block;
+}
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:100,100i,400,400i,700,700i|IBM+Plex+Serif:400,400i');
+/* font-family: 'IBM Plex Serif', serif; */
+/* font-family: 'IBM Plex Sans', sans-serif; */
+
+body{
+    margin:0;
+}
+
+#main_title, button{
+    font-family: 'IBM Plex Serif', serif;
+}
+
+
+#story_result, label, input{
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+#main_title{
+    font-size: 50px;
+}
+
+.main_container{
+    padding-bottom: 50px; 
+    display:flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+#main_title{
+    position: absolute;
+    top:0;
+}
+
+.form_container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.adlib{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 20px;
+    text-decoration:none;
+}
+
+.adlib label{
+    margin-right: 10px;
+   
+}
+#box1{
+    width:200px;
+}
+#box2{
+    width:200px;
+}
+#box3{
+    width:120px;
+}
+#box4{
+    height:100px;
+    width:500px;
+}
+.adlib input{
+    width:200px;
+    flex:1;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid 1px #2989d8;
+    caret-color: #2989d8;
+    text-align: center;
+    font-size: 16px;
+}
+
+input:focus{
+    outline:none;
+}
+
+#submit_button{
+  display : inline-block;  
+  border-style : solid;
+  border-width : 1px;
+  border-radius : 50px;
+  padding-left : 50px ;
+  padding-right: 50px;
+  padding-top:20px;
+  padding-bottom:20px;
+  box-shadow : 0 1px 4px rgba(0,0,0,.6);
+  font-size : 20px;
+  font-weight : bold;
+  color : #fff;
+  text-shadow : 0 1px 3px rgba(0,0,0,.4);
+  text-decoration : none;
+  transition: all 2s;
+  border-color : #2989d8;
+  background-color: #2989d8;
+}
+
+#submit_button:hover{
+    border-color: green;
+    background: green;
+    box-shadow : -4px 5px 4px rgba(0,0,0,.8);    
+}
+.add_button{
+    background-color: yellow;
+}
+.addsome{
+    display:flex;
+    flex-direction: row;
+    justify-content: left;
+    margin-bottom: 20px;
+    text-decoration:none;
+    flex-direction: column;
+}
+#collegename{
+width:300px;
+margin-bottom: 5px;
+}
+#colldesc{
+    width: 500px;
+    height:60px;
+}
+#add_button{
+
+    height:60px;
+    width:60px;
+    border-style : solid;
+  border-width : 1px;
+  border-radius : 50px;
+  border-color: none;
+
+  
+}
+#add_button:visited{
+    border-color: none;
+}
+#image{
+    width:auto;
+}
+
+.homeinfo{
+    
+    background: url("https://www.solidbackgrounds.com/images/2560x1440/2560x1440-ghost-white-solid-color-background.jpg")
+    
+}
